@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    tools:context=".GraphFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/linechart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="53dp"></com.github.mikephil.charting.charts.LineChart>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/linechart"
+        android:gravity="center"
+        android:text="7일전       6일전       5일전       4일전       3일전       2일전       1일전"
+        android:textColor="@color/colorBlack"
+        android:textSize="12dp" />
+
+</RelativeLayout>

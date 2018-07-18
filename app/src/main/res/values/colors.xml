@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorRain">#9dc8c8</color>
+    <color name="colorDrop">#58C9B9</color>
+    <color name="colorB">#519D9E</color>
+    <color name="colorLiLac">#D1B6E1</color>
+    <color name = "colorMint">#74CDC7</color>
+    <color name = "colorY">#F9F7E8</color>
+    <color name = "colorCoral">#FF8B8B</color>
+    <color name = "colorM">#167C80</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGray">#F2F2F2</color>
+    <color name="colorG">#A3A1A1</color>
+    <color name="colorBlack">#000000</color>
+
+</resources>
